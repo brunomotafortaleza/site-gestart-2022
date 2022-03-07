@@ -1,0 +1,251 @@
+.g-whatsapp-btn {
+    position: fixed;
+    z-index: 999;
+    right: 1em;
+    bottom: .8em;
+    transition: all .3s ease;
+}
+.g-whatsapp-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5em;
+    background-color: #5BAB57;
+    padding: .9em .9em;
+    transition: all .3s ease;
+    box-shadow: -2px 2px 6px #000;
+    text-decoration: none;
+    color: #fff;
+}
+.g-whatsapp-btn a:hover, .g-whatsapp-btn a:focus{
+    text-decoration: none;
+}
+
+.g-whatsapp-btn a i{
+    font-size: 1.8em;
+}
+
+.g-whatsapp-btn a span{
+    font-size: 1em;
+    width: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.g-whatsapp-btn a:hover span{
+    width: 160px;
+}
+
+.jupiterx-scrolled ~ .g-whatsapp-btn{
+    right: 5em;
+}
+
+.g-mobile-left{
+    left: 0 !important;
+}
+.g-mobile-right{
+    right: 0 !important;
+}
+.g-banner-content h3{
+    align-self: flex-start;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1em;
+    letter-spacing: 0.4px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+.g-banner-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.g-w-20{
+    width: 20%; 
+}
+.g-w-25{
+    width: 25%; 
+}
+.g-w-30{
+    width: 30%; 
+}
+.g-w-40{
+    width: 40%; 
+}
+.g-w-50{
+    width: 50%; 
+}
+.g-w-60{
+    width: 60%; 
+}
+.g-w-65{
+    width: 65%; 
+}
+.g-w-70{
+    width: 70%; 
+}
+
+.g-w-75{
+    width: 75%; 
+}
+.g-w-80{
+    width: 80%; 
+}
+.g-w-90{
+    width: 90%; 
+}
+.g-w-100{
+    width: 100%; 
+}
+
+.g-slide-left-content{
+    padding-left: 2%;
+}
+
+.g-banner-btn{
+    margin-left: 0 !important;
+}
+
+.text-primary {
+    color: #5BAB57;
+}
+
+.g-container{
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+.g-container-overlay{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-image: linear-gradient(to bottom right, #40803dad, rgba(0, 0, 0, 0.336));
+}
+
+.g-form-right, .g-form-left{
+    width: 48%;
+}
+
+.g-form-left{
+    color: #fff;
+}
+
+.g-form-left h2{
+    font-size: 2.4em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    color: #fff !important;
+}
+
+.g-container ._form_7{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.g-container ._form_7 label, .g-container ._form_7 p{
+    color: #fff !important;
+    font-weight: normal !important;
+
+}
+
+.g-container p, .g-container ._form_7 p{
+    font-size: 18px !important;
+}
+
+.g-container ._form_7 input, .g-container ._form_7 select{
+    padding: 1em .5em !important;
+    border-radius: .5em !important;
+}
+.g-container ._form_7 ._submit{
+    margin-top: 1.5em;
+}
+
+.g-solicitar-wpp a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.6em;
+    border-radius: 5em;
+    background-image: linear-gradient(to bottom right, #128C7E, #25D366);
+    background-color: #128C7E;
+    color: #fff;
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: -2px 2px 6px #000;
+    transition: all .4s ease;
+}
+.g-solicitar-wpp a:hover{
+    background-image: none;
+    background-color: #25D366;
+}
+
+.g-solicitar-wpp a i{
+    font-size: 3em;
+}
+
+.g-solicitar-wpp a span{
+    font-size: 1.2em;
+    white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+    .g-w-100-m{
+        width: 100% !important; 
+    }
+    
+    .g-banner-center{
+        flex-direction: column;
+    }
+    .g-banner-content{
+        padding: 0 1em !important;
+    }
+
+    .g-slide-left-content{
+        padding-left: 0 !important;
+    }
+
+    .g-banner-video{
+        padding-top: 1em;
+        text-align: center;
+    }
+
+    .g-banner-desc{
+        width: 90% !important;
+    }
+    
+    .g-banner-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .g-banner-btn a{
+        margin-top: 1em !important;
+    }
+
+    .g-m-t-m-1{
+        margin-top: 1em;
+    }
+    .g-container-overlay{
+        display: block;
+    }
+
+    .g-form-right, .g-form-left{
+        width: 100%;
+    }
+    .g-container, .g-container-overlay{
+        height: auto;
+    }
+}

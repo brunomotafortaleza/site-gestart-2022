@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icons" x="0px" y="0px" width="35px" height="48px" viewBox="0 0 35 48" style="enable-background:new 0 0 35 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1E49AC;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M24,24.9l0-6.9l-2-2v-2h12v2l-2,2v26c0,1.7-1.3,3-3,3h-2c-1.7,0-3-1.3-3-3v-2"></path>
+	<line class="st0" x1="24" y1="18" x2="29" y2="18"></line>
+	<line class="st0" x1="28" y1="20" x2="28" y2="26"></line>
+	<path class="st0" d="M14,8V7c0-3.7,3.4-6,7.1-6h0C24.8,1,28,4.3,28,8v4"></path>
+	<line class="st0" x1="14" y1="14" x2="11" y2="14"></line>
+	<line class="st0" x1="14" y1="17" x2="14" y2="27"></line>
+	<path class="st0" d="M6,30c-0.6,1.2-1,2.5-1,4c0,5,4,9,9,9c5,0,9-4,9-9c0-1.5-0.4-2.8-1-4H6z"></path>
+	<path class="st0" d="M9,10v2l2,2v7.4C5.3,22.7,1,27.9,1,34c0,7.2,5.8,13,13,13c7.2,0,13-5.8,13-13c0-6.1-4.3-11.3-10-12.6V14l2-2   v-2H9z"></path>
+</g>
+</svg>

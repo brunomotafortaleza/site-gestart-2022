@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="icons" x="0px" y="0px" width="37.9px" height="48px" viewBox="0 0 37.9 48" style="enable-background:new 0 0 37.9 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1E49AC;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#1E49AC;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#1E49AC;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M14.9,43V23l-2-2l1-2h10l1,2l-2,2v20c0,2.2-1.8,4-4,4l0,0C16.7,47,14.9,45.2,14.9,43z"></path>
+	<line class="st1" x1="22.9" y1="26" x2="16.9" y2="26"></line>
+	<path class="st2" d="M8.4,25.5c-0.3-2.7-2.6-5.2-5.5-6.1L1,18.9l1.9-0.5C7.3,17.1,9.4,12,7.2,7.9L6.3,6.3l1.7,0.9   c4.1,2.2,9.2,0.1,10.5-4.3L18.9,1H19l0.5,1.9c1.3,4.5,6.4,6.6,10.5,4.3l1.7-0.9l-0.9,1.7c-2.2,4.1-0.1,9.2,4.3,10.5l1.9,0.5   l-1.9,0.5c-2.9,0.8-5.2,3.3-5.5,6.1"></path>
+</g>
+</svg>
