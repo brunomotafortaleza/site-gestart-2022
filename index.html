@@ -3649,6 +3649,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 	</div>
 	</main>
+
+
+	<div class="g-modal-back" id="g-popup">
+		<a href="https://api.whatsapp.com/send?phone=5585984248986" target="_blank" style="display: block;"
+			class="g-img-popup">
+			<img src="./imgs/popup.png" style="width: 100%;" alt="">
+		</a>
+		<button id="g-btn-close-popup" class="g-btn-close">
+			<i class="fas fa-close"></i>
+		</button>
+	</div>
+
 	<footer class="jupiterx-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 		<div data-elementor-type="footer" data-elementor-id="105" class="elementor elementor-105"
 			data-elementor-settings="[]">
@@ -4243,7 +4255,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<script src="/__/firebase/8.9.1/firebase-analytics.js"></script>
 	<script src="/__/firebase/init.js"></script>
 
+	<script>
+		window.onload = (e) => {
+			//popup
+			const showedPopup = localStorage.getItem('showedPopup');
+			if (!showedPopup) {
+				setTimeout(() => {
+					localStorage.setItem('showedPopup', 'true');
+					document.getElementById("g-popup").classList.add('g-popup-show');
+					document.getElementById("g-popup").onclick = () => {
+						document.getElementById("g-popup").classList.remove('g-popup-show');
+					}
+				}, 2000);
 
+				setTimeout(() => {
+					document.getElementById("g-popup").classList.remove('g-popup-show');
+				}, 7000);
+			}
+
+
+
+			//modal manual sindico
+			// let modal = document.getElementById("g-modal-manual");
+
+			// document.getElementById('g-btn-manual').onclick = (e) => {
+			// 	let divs = document.querySelectorAll("[data-g-width]");
+			// 	divs.forEach(element => {
+			// 		element.style.width = element.dataset.gWidth;
+			// 	});
+
+			// 	modal.classList.add('g-modal-show');
+			// };
+
+			// modal.onclick = () => {
+			// 	modal.classList.remove('g-modal-show');
+			// }
+		}
+	</script>
 </body>
 
 </html>
