@@ -4258,20 +4258,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<script>
 		window.onload = (e) => {
 			//popup
-			const showedPopup = localStorage.getItem('showedPopup');
-			if (!showedPopup) {
-				setTimeout(() => {
-					localStorage.setItem('showedPopup', 'true');
-					document.getElementById("g-popup").classList.add('g-popup-show');
-					document.getElementById("g-popup").onclick = () => {
-						document.getElementById("g-popup").classList.remove('g-popup-show');
-					}
-				}, 2000);
-
-				setTimeout(() => {
-					document.getElementById("g-popup").classList.remove('g-popup-show');
-				}, 7000);
+			document.getElementById("g-popup").onclick = () => {
+				document.getElementById("g-popup").classList.remove('g-popup-show');
 			}
+			setTimeout(() => {
+				localStorage.setItem('showedPopup', 'true');
+				document.getElementById("g-popup").classList.add('g-popup-show');
+
+			}, 2000);
+			setTimeout(() => {
+				document.getElementById("g-popup").classList.remove('g-popup-show');
+			}, 15000);
 
 
 
